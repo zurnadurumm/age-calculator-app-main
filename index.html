@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Age calculator app</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Age calculator app</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+
+
 </head>
+
 <body>
+    <main>
+        <div class="content">
+            <div class="input__container">
+                <div class="input__item">
+                    <p class="input__name">day</p>
+                    <input type="text" name="inputday" id="inputday" class="inputtime" placeholder="DD">
+                </div>
+                <div class="input__item">
+                    <p class="input__name">month</p>
+                    <input type="text" name="inputmonth" id="inputmonth" class="inputtime" placeholder="MM">
+                </div>
+                <div class="input__item">
+                    <p class="input__name">year</p>
+                    <input type="text" name="inputyear" id="inputyear" class="inputtime" placeholder="YYYY">
+                </div>
+            </div>
+            <hr>
+            <div class="output__container">
+                <div class="output__item">
+                    <p class="output" id="outputyear">--</p>
+                    <p class="output__text">years</p>
+                </div>
+                <div class="output__item">
+                    <p class="output" id="outputmonth">--</p>
+                    <p class="output__text">months</p>
+                </div>
+                <div class="output__item">
+                    <p class="output" id="outputday">--</p>
+                    <p class="output__text">days</p>
+                </div>
+            </div>
 
-  Day
-  DD
 
-  Month
-  MM
 
-  Year
-  YYYY
 
-  -- years
-  -- months
-  -- days
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        </div>
+    </main>
+
+
+
+
+
 </body>
+
 </html>

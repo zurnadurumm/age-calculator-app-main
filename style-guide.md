@@ -32,3 +32,7 @@ The designs were created to the following widths:
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 400i, 700, 800i
+
+### Text
+
+  Day DD Month MM Year YYYY -- years -- months -- days
